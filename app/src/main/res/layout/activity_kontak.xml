@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgeksplisit"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="399dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="22dp"
+                app:layout_constraintBottom_toTopOf="@+id/appCompatButton4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toTopOf="@+id/appCompatButton4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.466"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.503" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/appCompatButton3"
+                android:layout_width="398dp"
+                android:layout_height="61dp"
+                android:drawableRight="@drawable/wibuuu"
+                android:onClick="Rakka"
+                android:text="Rakka"
+                android:textAlignment="viewStart"
+                tools:layout_editor_absoluteX="-3dp"
+                tools:layout_editor_absoluteY="531dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/appCompatButton2"
+                android:layout_width="398dp"
+                android:layout_height="61dp"
+                android:background="@color/purple_200"
+                android:drawableRight="@drawable/wojak2"
+                android:onClick="Aulia"
+                android:text="Aulia"
+                android:textAlignment="viewStart"
+                app:layout_constraintBottom_toTopOf="@+id/appCompatButton3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/appCompatButton"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/appCompatButton"
+                android:layout_width="398dp"
+                android:layout_height="61dp"
+                android:drawableRight="@drawable/silet"
+                android:onClick="Ipul"
+                android:text="Ipul"
+                android:textAlignment="viewStart"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="409dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/appCompatButton4"
+                android:layout_width="398dp"
+                android:layout_height="61dp"
+                android:background="@color/purple_200"
+                android:drawableRight="@drawable/wojak1"
+                android:onClick="Widya"
+                android:text="Widya"
+                android:textAlignment="viewStart"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="348dp" />
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kontak"
+                android:textSize="30dp"
+                app:layout_constraintBottom_toTopOf="@+id/appCompatButton4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.753" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
